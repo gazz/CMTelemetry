@@ -10,8 +10,6 @@
 #define PORT 8888   //The port on which to listen for incoming data
 
 
-
-
 void update_sim_sli(hid_device *device, UDPPacket telemetry) {
 
 	_SLI_MboardOUT out_data;
