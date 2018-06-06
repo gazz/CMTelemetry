@@ -235,7 +235,6 @@ void dummy_package(hid_device *device) {
 	testPacket.m_engineRate = 580;
 	testPacket.m_max_rpm = 600;
 	update_sim_sli(device, testPacket);
-
 }
 
 int main()
